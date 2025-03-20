@@ -6,18 +6,19 @@ This repository contains a detailed **Exploratory Data Analysis (EDA)** using Py
 ---
 
 ## 📂 Project Structure
-├── data/
-│   ├── superstore_sales.csv(Dataset used for analysis)
-│
-├── notebooks/
-│   ├── superstore_sales_EDA.ipynb (Python Notebook for EDA)
-│
-├── dashboard/
-│   ├── Superstore_Sales.pbix (Power BI Dashboard file)
-│   ├── dashboard_screenshot.png (Dashboard screenshot)
-│   ├── dashboard_video.mp4 (Dashboard video walkthrough)
-│
-└── README.md
+├── data/ │ ├── superstore_sales.csv │ ├── notebooks/ │ ├── Superstore Sales EDA.ipynb │ ├── powerbi/ │ ├── Superstore Sale BI.pbix` │ ├── Superstore Sale Dashboard.png │ ├── Superstore Sale Dashboard video.mp4│ └── README.md
+---
+
+## 📁 Files Included
+
+| File | Description |
+|-----|-------------|
+| `data/Superstore_Sales_Dataset.csv` | Dataset used for analysis |
+| `data/Superstore_Sales_Result.csv` | Dataset After cleaning used for visualization |
+| `notebooks/Superstore Sales EDA.ipynb` | Python Notebook for EDA |
+| `powerbi/Superstore Sale BI.pbix` | Power BI Dashboard file |
+| `powerbi/Superstore Sale Dashboard.png` | Dashboard screenshot |
+| `powerbi/Superstore Sale Dashboard video.mp4` | Dashboard video walkthrough |
 
 ---
 
