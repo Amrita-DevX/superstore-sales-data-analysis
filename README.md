@@ -1,12 +1,12 @@
 # 📊 Superstore Sales Data Analysis
 
 Welcome to the **Superstore Sales Data Analysis** project!  
-This repository contains a detailed **Exploratory Data Analysis (EDA)** using Python and a **Power BI Dashboard** built on the Superstore Sales dataset.
+This repository contains a detailed **Exploratory Data Analysis (EDA)** using Python ,**time series analysis to get the sales for forecasting for next 7 days** and a **Power BI Dashboard** built on the Superstore Sales dataset.
 
 ---
 
 ## 📂 Project Structure
-├── data/ │ ├── superstore_sales.csv │ ├── notebooks/ │ ├── Superstore Sales EDA.ipynb │ ├── powerbi/ │ ├── Superstore Sale BI.pbix` │ ├── Superstore Sale Dashboard.png │ ├── Superstore Sale Dashboard video.mp4│ └── README.md
+├── data/ │ ├── superstore_sales.csv │ ├── notebooks/ │ ├── Superstore Sales EDA.ipynb │ ├── Superstore Sale Time Series Analysis.ipynb │ ├── powerbi/ │ ├── Superstore Sale BI.pbix` │ ├── Superstore Sale Dashboard.png │ ├── Superstore Sale Dashboard video.mp4│ └── README.md
 ---
 
 ## 📁 Files Included
@@ -16,6 +16,7 @@ This repository contains a detailed **Exploratory Data Analysis (EDA)** using Py
 | `data/Superstore_Sales_Dataset.csv` | Dataset used for analysis |
 | `data/Superstore_Sales_Result.csv` | Dataset After cleaning used for visualization |
 | `notebooks/Superstore Sales EDA.ipynb` | Python Notebook for EDA |
+| `notebooks/Superstore Sale Time Series Analysis.ipynb` | Python Notebook for time series analysis to get the sales for forecasting for next 7 days |
 | `powerbi/Superstore Sale BI.pbix` | Power BI Dashboard file |
 | `powerbi/Superstore Sale Dashboard.png` | Dashboard screenshot |
 | `powerbi/Superstore Sale Dashboard video.mp4` | Dashboard video walkthrough |
@@ -66,6 +67,23 @@ The dataset contains retail sales transactions including:
 - Identified peak and low revenue months
 
 ---
+## 📈 Superstore Sales Forecasting using SARIMA
+
+This project focuses on building a SARIMA model to forecast future sales based on the Superstore dataset.
+
+### ✅ **Key Highlights**
+- Data Cleaning & Preprocessing
+- Resampling and Interpolating missing values
+- ADF Test for stationarity check
+- Hyperparameter tuning using AIC
+- SARIMA Model Training & 7-day Sales Forecasting
+
+### 📊 **Tools & Libraries**
+- Python, Pandas, NumPy
+- Statsmodels (SARIMAX)
+- Matplotlib / Seaborn (Optional for visualization)
+
+---
 
 ## 📊 Power BI Dashboard Highlights
 
@@ -90,7 +108,4 @@ This project helps uncover meaningful business insights into:
 
 ---
 
-## 📌 Future Improvements
-- Add predictive modeling for sales forecasts
-- Customer segmentation using clustering
-- Churn prediction model
+
