@@ -6,7 +6,18 @@ This repository contains a detailed **Exploratory Data Analysis (EDA)** using Py
 ---
 
 ## 📂 Project Structure
-├── data/ │ ├── superstore_sales.csv │ ├── notebooks/ │ ├── Superstore Sales EDA.ipynb │ ├── Superstore Sale Time Series Analysis.ipynb │ ├── powerbi/ │ ├── Superstore Sale BI.pbix` │ ├── Superstore Sale Dashboard.png │ ├── Superstore Sale Dashboard video.mp4│ └── README.md
+```
+├── data/ 
+          ├── superstore_sales.csv 
+├── notebooks/ 
+          ├── Superstore Sales EDA.ipynb 
+          ├── Superstore Sale Time Series Analysis.ipynb 
+├── powerbi/ 
+          ├── Superstore Sale BI.pbix` 
+          ├── Superstore Sale Dashboard.png 
+          ├── Superstore Sale Dashboard video.mp4
+└── README.md
+```
 ---
 
 ## 📁 Files Included
